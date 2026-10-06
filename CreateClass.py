@@ -4,4 +4,4 @@ class PersegiPanjang:
         self.lebar = lebar
 
     def hitung_luas(self):
-        
+        return self.panjang * self.lebar
