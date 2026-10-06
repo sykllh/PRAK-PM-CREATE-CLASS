@@ -7,3 +7,4 @@ class PersegiPanjang:
         return self.panjang * self.lebar
 
     def hitung_keliling(self):
+        return 2 * (self.panjang + self.lebar)
