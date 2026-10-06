@@ -1,5 +1,5 @@
 class PersegiPanjang:
-    def__init__(self, panjang, lebar):
+    def __init__(self, panjang, lebar):
         self.panjang = panjang
         self.lebar = lebar
 
@@ -8,3 +8,6 @@ class PersegiPanjang:
 
     def hitung_keliling(self):
         return 2 * (self.panjang + self.lebar)
+
+    def __str__(self):
+        
